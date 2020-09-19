@@ -93,13 +93,13 @@ void game()
 
 		if (slot < 1 || slot > 9)
 		{
-			cout << "not a valid slot!";
+			cout << "not a valid slot!" << "\n";
 			i--;
 			continue;
 		}
 		if(!placeMarker(slot)) 
 		{
-			cout << "that slot has allready been taken!";
+			cout << "that slot has allready been taken!" << "\n";
 			i--;
 			continue;										// makes the turn not count towards the 9 moves.
 		}
